@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ssm": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\bin\Debug\net8.0\ssm.exe
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\bin\Debug\net8.0\ssm.deps.json
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\bin\Debug\net8.0\ssm.runtimeconfig.json
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\bin\Debug\net8.0\ssm.dll
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\bin\Debug\net8.0\ssm.pdb
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.AssemblyInfoInputs.cache
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.AssemblyInfo.cs
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.dll
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\refint\ssm.dll
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.pdb
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.genruntimeconfig.cache
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ref\ssm.dll

@@ -1,0 +1,20 @@
+[
+  {
+    "Id": 1,
+    "mathematics": 7,
+    "english": 8,
+    "programming": 9
+  },
+  {
+    "Id": 2,
+    "mathematics": 4,
+    "english": 5,
+    "programming": 6
+  },
+  {
+    "Id": 3,
+    "mathematics": 10,
+    "english": 10,
+    "programming": 10
+  }
+]
