@@ -12,3 +12,4 @@ C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\refint\ssm.dll
 C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.pdb
 C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.genruntimeconfig.cache
 C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ref\ssm.dll
+C:\Users\ADMIN\Documents\MyProject\C#\ssm\ssm\obj\Debug\net8.0\ssm.sourcelink.json

@@ -85,7 +85,9 @@ namespace StudentScoreManager
             }
 
             Console.Write("Id = ");
-            int id = Convert.ToInt32(Console.ReadLine());
+            
+            if (!int.TryParse(Console.ReadLine(), out int id)) { IdInputError(); return; }
+            
             if (ScoreBoard.IsIdContained(scores, id))
             {
                 Console.WriteLine("Id is already existed.");
@@ -212,8 +214,8 @@ namespace StudentScoreManager
         }
         static void About()
         {
-            Console.WriteLine("Develop by Tran Thien Long, using C#.");
-            Console.WriteLine("Student Score Manager(SSM) is used for storing, editing scores of student(mainly Computer Science Student).");
+            Console.WriteLine("Developed by Tran Thien Long, using C#.");
+            Console.WriteLine("Student Score Manager(SSM) is used for storing, editing scores of student(mainly Information Technology Student).");
             Console.WriteLine("In the first ever version, there are only 3 subject which are \"Mathematics\", \"English\" and \"Programming\"");
             Console.WriteLine("It also could be my first ever usable application. Really cost a lot of work cus I make it alone.");
             Console.WriteLine("Feel free to use it!");
@@ -225,7 +227,7 @@ namespace StudentScoreManager
             Console.WriteLine("\nHere is the command list:");
             Console.WriteLine("\n\tshow : Show all the score board.");
             Console.WriteLine("\n\tnew : Add new scoreboard.");
-            Console.WriteLine("\n\tupdate : Update score of a student by Id");
+            Console.WriteLine("\n\tupdate : Update score of a student by Id.");
             Console.WriteLine("\n\tsearch : Search for a scoreboard.");
             Console.WriteLine("\n\tdelete : Delete a scoreboard.");
             Console.WriteLine("\n\tclear : Delete all scoreboards.");
