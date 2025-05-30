@@ -8,14 +8,6 @@ namespace StudentScoreManager
         public double mathematics { get; set; }
         public double english { get; set; }
         public double programming { get; set; }
-
-        //public ScoreBoard(string Id, double mathematics, double english, double programming)
-        //{
-        //    this.Id = Id;
-        //    this.mathematics = mathematics;
-        //    this.english = english;
-        //    this.programming = programming;
-        //}
         public static bool IsIdContained(List<ScoreBoard> board, int Id)
         {
             foreach (ScoreBoard s in board)
@@ -34,39 +26,6 @@ namespace StudentScoreManager
             }
             return -1;
         }
-        //public static void SortById(List<ScoreBoard> board)
-        //{
-        //    if (board.Count <= 1) return;
-        //    QuickSort(board, 0, board.Count - 1);
-        //}
-        //static void QuickSort(List<ScoreBoard> boards, int left, int right)
-        //{
-        //    if (left < right)
-        //    {
-        //        int pivotIndex = Partition(boards, left, right);
-        //        QuickSort(boards, left, pivotIndex - 1);
-        //        QuickSort(boards, pivotIndex + 1, right);
-        //    }
-        //}
-        //static int Partition(List<ScoreBoard> boards, int left, int right)
-        //{
-        //    ScoreBoard pivot = boards[right];
-        //    int i = left - 1;
-        //    for (int j = left; j < right; j++)
-        //    {
-        //        if(boards[j].Id < pivot.Id)
-        //        {
-        //            i++;
-        //            Swap(boards, i, j);
-        //        }
-        //    }
-        //    Swap(boards, i + 1, right);
-        //    return i + 1;
-        //}
-        //static void Swap(List<ScoreBoard> boards, int i, int j)
-        //{
-        //    var tmp = boards[i]; boards[i] = boards[j]; boards[j] = tmp;
-        //}
     }
     class Program
     {

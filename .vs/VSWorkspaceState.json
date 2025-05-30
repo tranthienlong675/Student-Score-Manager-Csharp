@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\ssm"
   ],
-  "SelectedNode": "\\ssm.sln",
+  "SelectedNode": "\\ssm\\Program.cs",
   "PreviewInSolutionExplorer": false
 }
