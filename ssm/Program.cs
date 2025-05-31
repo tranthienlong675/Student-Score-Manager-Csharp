@@ -195,7 +195,8 @@ namespace StudentScoreManager
             string? choose = Console.ReadLine();
             if (choose != null && choose.ToUpper() == "Y")
             {
-                File.WriteAllText(tmpPath, "");
+                File.WriteAllText(tmpPath, File.ReadAllText(filePath));
+                File.WriteAllText(filePath, "");
                 Console.WriteLine("The scoreboards have been successfully emptied.");
                 Console.WriteLine("If you want to recover the data, please type \"ssm restore\" before make any change, otherwise, the data could be deleted forever.");
             }
